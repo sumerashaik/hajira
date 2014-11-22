@@ -1,1 +1,9 @@
-this is the newly added file
+This project does a simple hello world application.
+
+To build this project follow instructions: 
+
+mvn clean
+mvn install
+mvn exec:java -Dexec.mainClass="com.hajira.App"
+
+The output will be a Hello World.
