@@ -2,6 +2,7 @@ This project does a simple hello world application.
 
 To build this project follow instructions: 
 
+cd app
 mvn clean
 mvn install
 mvn exec:java -Dexec.mainClass="com.hajira.App"
