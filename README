@@ -1,1 +1,9 @@
-this is the newly added file
+This folder contains a sample java folder. To build this project follow the commands below:
+
+cd  app/
+mvn clean
+mvn install
+mvn exec:java -Dexec.mainClass="com.hajira.App"
+
+The output will be a Hello World.
+
